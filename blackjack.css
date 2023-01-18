@@ -1,0 +1,62 @@
+body {
+  background-image: url("casino.jpg");
+  background-size: cover;
+  color: gold;
+
+}
+
+h1, h2 {
+  margin-top: 30px;
+}
+
+#player-hand, #dealer-hand {
+  display: flex;
+  justify-content: center;
+}
+
+#player-hand > div, #dealer-hand > div {
+  width: 125px;
+  height: 150px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px #222; 
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px;
+  color: black;
+  border: 2px solid gold;
+}
+
+button {
+  background-color: gold;
+  color: #4b4b4b; 
+  box-shadow: 2px 2px 2px #222; 
+  border-radius: 10px;
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 10px;
+}
+#player-hand > div, #dealer-hand > div::before {
+  content: "";
+  font-size: 25px;
+  color: gold;
+}
+button:hover {
+  background-color: #ffd700; 
+  cursor: pointer;
+}
+#dealer {
+  margin-top: 10%;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+}
+#player {
+  margin-top: 10%;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+}
+#title {
+  font-family: 'Rowdies', cursive;
+}
